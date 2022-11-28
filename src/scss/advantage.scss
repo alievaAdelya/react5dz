@@ -1,0 +1,38 @@
+.advantages{
+    height: 100vh;
+    background: url('../../src/assets/adventage/13e3b8a33eb0648c3ae4a07e21657328\ 1.svg') no-repeat center;
+    background-size: cover;
+    
+    
+    &__title{
+        padding: 200px 0;
+        position: absolute;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 59px;
+        text-align: right;
+    }
+    &__companent{
+        padding: 250px 0 ;
+        display: flex;
+        transform: translateY(100px);
+        margin-left: 0;
+    }
+    &__text{
+        display: flex;
+        padding: 40px 0;
+    }
+    &__tex2{
+        transform: translateY(0px);
+    }
+    &__p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #1A1F25;
+    }
+ 
+}

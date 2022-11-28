@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1255px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@import 'header';
+@import 'about';
+@import 'servises';
+@import 'advantage';
+@import 'footer';
+@import 'portfolio'

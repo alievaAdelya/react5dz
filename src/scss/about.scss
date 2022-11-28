@@ -1,0 +1,60 @@
+.aboutCompany {
+    background-color: #f1f1f1;
+    &__image {
+        width: 600px;
+        height: 550px;
+
+    }
+    &__info {
+        display: flex;
+        text-align: end;
+        column-gap: 191px;
+    }
+    &__information{
+        width: 500px;  
+    }
+    &__title{
+        font-family: 'Montserrat', sans-serif;
+        padding: 100px 0 40px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 55px;
+        text-align: right;
+        
+    }
+    &__one{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: right;
+        line-height: 28px;
+        color:  #606060;
+        padding-bottom: 20px;
+        
+    }
+    &__two{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: right;
+        line-height: 28px;
+        color:  #606060;
+        padding-bottom: 20px;
+    }
+    &__three{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: right;
+        line-height: 28px;
+        color:  #606060;
+    }
+    &__img{
+        margin-top: 14px;
+        margin-right: 74px;
+    }
+    
+}
